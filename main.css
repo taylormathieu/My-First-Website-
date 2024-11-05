@@ -1,0 +1,27 @@
+*  {
+    background-color: beige 
+}
+
+h1 {
+    background-color: rgb(193, 147, 218);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: aliceblue;
+
+}
+
+#intro {
+    border: 3px dotted rgb(193, 147, 218);
+}
+
+
+/* nav section styles*/ 
+
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%, 6%;
+}
+
+
+
