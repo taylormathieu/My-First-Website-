@@ -1,11 +1,11 @@
-*  {
-    background-color: beige 
+* {
+  background-color: beige;
 }
 
 h1 {
     background-color: rgb(193, 147, 218);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: aliceblue;
+    color: white; 
 
 }
 
@@ -16,12 +16,70 @@ h1 {
 
 /* nav section styles*/ 
 
+.even {
+    background-color:rgb(193, 147, 218);
 }
-.nav-links {
+
+.odd {
+    background-color:rgb(181, 118, 181);
+}
+
+#schooling {
+    border: 3px dotted rgb(193, 147, 218);
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 2%, 6%;
+
 }
 
+a:link {
+    color:rgb(17, 13, 19); 
+}
 
+a:visited {
+    color: rgb(234, 64, 93); 
+}
 
+a:hover {
+    color:rgb(193, 147, 218);
+}
+
+a:active {
+    color: white;
+}
+
+h2 {
+    background-color:rgb(193, 147, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.skills {
+    border: 3px dotted rgb(193, 147, 218);
+}
+
+h3 {
+    color:rgb(181, 118, 181);
+}
+
+.design {
+    border: 3px dotted rgb(193, 147, 218);
+}
+
+.additional {
+    border: 3px dotted rgb(193, 147, 218);
+}
+
+img {
+    border: 3px dotted rgb(193, 147, 218);
+    
+}
+
+p {
+    margin: 12;
+    padding: 20px, 0; 
+    border: 0px dotted rgb(193, 147, 218);
+}
