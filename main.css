@@ -83,3 +83,48 @@ p {
     padding: 20px, 0; 
     border: 0px dotted rgb(193, 147, 218);
 }
+
+@media (width > 320px) {
+    .navbar {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (width > 768px) {
+   .navbar {
+    justify-content: center;
+   } 
+}
+
+@media (width > 320px) {
+    h1 {
+        justify-content: center;
+    }
+}
+
+@media (width > 768px) {
+    h1 {
+        justify-content: center;
+    }
+}
+
+@media (width > 320px) {
+    #schooling {
+        justify-content: cener;
+    }
+}
+
+@media (width > 768px) {
+    #schooling {
+        justify-content: center;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border: 3px dotted rgb(193, 147, 218);
+    
+
+}
