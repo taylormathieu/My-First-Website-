@@ -30,13 +30,7 @@ function displayGreeting() {
 }
 
 
-const myBtn = document.getElementById('myBtn');
-myBtn.addEventListener('mouseover', function() {
-    myBtn.textContent = "Mouse is hovering";
-});
-myBtn.addEventListener('mouseout', function() {
-    myBtn.textContent = "Click Me!";
-});
+
 
 
 
