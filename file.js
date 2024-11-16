@@ -1,29 +1,44 @@
 "use strict";
 
-const fYear = document.getElementById("footerYear");
+// Creating footer element and adding copyright 
+document.getElementById("myF").innerHTML = `Copyright ©️ 2024 Taylor Mathieu`;
+
+const fYear = document.getElementById("copyright-year");
 const d = new Date();
 fYear.textContent = d.getFullYear();
 
-let name = prompt("Hello! What's your name?");
-alert("Nice to meet you, " + name + "!");
+console.log(`November 15th 2024`);
 
-const button = document.getElementById('myButton');
-button.addEventListener('click', function() {
-    alert('Button clicked');
-});
+// setting the button to display greeting text based on time of day
 
 const greeting = () => {
     if (d.getHours() <= 11) {
-        alert('Good Morning!');
-    } else if (d.getHours() <18 ) {
+        alert('Good Morning');
+    } else if (d.getHours() < 18 ) {
         alert('Good Afternoon');
     } else {
         alert('Good Evening');
     }
 }
 
-const btn = document.getElementById("btn");
-btn.addEventListener("click, greeting");
+const myBtn = document.getElementById('myBtn');
+myBtn.addEventListener("click", greeting);
+
+// displaying a greeting when the page opens
+function displayGreeting() {
+    greetingMessage.textContent = "Hello, welcome to my personal website!";
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

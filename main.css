@@ -132,6 +132,11 @@ footer {
 button {
     background-color:rgb(193, 147, 218);
     text-decoration-color: black;
-    
+
     
 }
+
+#copyright-year {
+    text-align: center;
+}
+
